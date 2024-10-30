@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="WelcomeText1" layoutX="118.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to BoredGames (pun intented)!!!">
+         <font>
+            <Font name="Comic Sans MS" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="WelcomeText2" layoutX="17.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In this app you can try and play these 2 classic board games with your computer. Choose a game below to start. Good luck and may the odds be always in your favour!" textAlignment="CENTER" wrappingWidth="565.6811828613281">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="RPSbutt" layoutX="60.0" layoutY="234.0" mnemonicParsing="false" onAction="#OpenRPS" prefHeight="92.0" prefWidth="222.0" text="Rock-Paper-Scissors">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="TTTbutt" layoutX="343.0" layoutY="234.0" mnemonicParsing="false" onAction="#OpenTTT" prefHeight="92.0" prefWidth="222.0" text="Tic-Tac-Toe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
