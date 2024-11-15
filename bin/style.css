@@ -1,0 +1,4 @@
+.style{
+    -fx-background-image: url("/background.jpg");
+    -fx-background-size: 50% 50%;
+}
