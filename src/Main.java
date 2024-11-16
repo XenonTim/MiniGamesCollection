@@ -9,7 +9,6 @@ public class Main extends Application{
     public void start(Stage stage) {
         try{
             FXMLLoader loader = new FXMLLoader(getClass().getResource("WelcomeWind.fxml"));
-            loader.setController(new Controller());
             Parent root = loader.load();
             Scene scene = new Scene(root);
             stage.setScene(scene);

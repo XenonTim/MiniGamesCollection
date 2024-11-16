@@ -27,7 +27,7 @@
                </font></Text>
             <Text fx:id="TTTtext4" layoutX="32.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Well, good luck my dear friend!">
                <font>
-                  <Font size="16.0" />
+                  <Font name="Comic Sans MS" size="16.0" />
                </font>
             </Text>
          </children></AnchorPane>
